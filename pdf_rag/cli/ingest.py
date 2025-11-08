@@ -1,6 +1,6 @@
 import typer, yaml, numpy as np
 from pathlib import Path
-from ..io.pdf_extract import extract_folder
+from ..io.pdf_extractor import extract_folder
 from ..chunking.splitter import chunk_folder
 from ..embed.encoder import embed_chunks
 from ..index.faiss_store import build as build_faiss
